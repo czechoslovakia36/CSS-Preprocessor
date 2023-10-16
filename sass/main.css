@@ -2,11 +2,6 @@ html {
   font-size: 69.5;
 }
 
-h1 {
-  color: #222f3e;
-  font-size: 10rem;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +11,17 @@ h1 {
 .main-header {
   width: 100vw;
   height: 100vh;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background: #10ac84;
+}
+.main-header h1 {
+  color: #222f3e;
+  font-size: 10rem;
+}
+.main-header p {
+  color: #222f3e;
+  font-size: 10rem;
 }/*# sourceMappingURL=main.css.map */
